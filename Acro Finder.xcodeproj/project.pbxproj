@@ -1,0 +1,433 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		323D316E1C4D896400B4C65B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 323D316D1C4D896400B4C65B /* main.m */; };
+		323D31711C4D896400B4C65B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 323D31701C4D896400B4C65B /* AppDelegate.m */; };
+		323D31741C4D896400B4C65B /* MasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 323D31731C4D896400B4C65B /* MasterViewController.m */; };
+		323D31771C4D896400B4C65B /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 323D31761C4D896400B4C65B /* DetailViewController.m */; };
+		323D317A1C4D896400B4C65B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 323D31781C4D896400B4C65B /* Main.storyboard */; };
+		323D317C1C4D896400B4C65B /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 323D317B1C4D896400B4C65B /* Images.xcassets */; };
+		323D317F1C4D896400B4C65B /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 323D317D1C4D896400B4C65B /* LaunchScreen.xib */; };
+		323D318B1C4D896400B4C65B /* Acro_FinderTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 323D318A1C4D896400B4C65B /* Acro_FinderTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		323D31851C4D896400B4C65B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 323D31601C4D896400B4C65B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 323D31671C4D896400B4C65B;
+			remoteInfo = "Acro Finder";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		323D31681C4D896400B4C65B /* Acro Finder.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Acro Finder.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		323D316C1C4D896400B4C65B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		323D316D1C4D896400B4C65B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		323D316F1C4D896400B4C65B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		323D31701C4D896400B4C65B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		323D31721C4D896400B4C65B /* MasterViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MasterViewController.h; sourceTree = "<group>"; };
+		323D31731C4D896400B4C65B /* MasterViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MasterViewController.m; sourceTree = "<group>"; };
+		323D31751C4D896400B4C65B /* DetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
+		323D31761C4D896400B4C65B /* DetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
+		323D31791C4D896400B4C65B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		323D317B1C4D896400B4C65B /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		323D317E1C4D896400B4C65B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		323D31841C4D896400B4C65B /* Acro FinderTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Acro FinderTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		323D31891C4D896400B4C65B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		323D318A1C4D896400B4C65B /* Acro_FinderTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Acro_FinderTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		323D31651C4D896400B4C65B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		323D31811C4D896400B4C65B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		323D315F1C4D896400B4C65B = {
+			isa = PBXGroup;
+			children = (
+				323D316A1C4D896400B4C65B /* Acro Finder */,
+				323D31871C4D896400B4C65B /* Acro FinderTests */,
+				323D31691C4D896400B4C65B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		323D31691C4D896400B4C65B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				323D31681C4D896400B4C65B /* Acro Finder.app */,
+				323D31841C4D896400B4C65B /* Acro FinderTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		323D316A1C4D896400B4C65B /* Acro Finder */ = {
+			isa = PBXGroup;
+			children = (
+				323D316F1C4D896400B4C65B /* AppDelegate.h */,
+				323D31701C4D896400B4C65B /* AppDelegate.m */,
+				323D31721C4D896400B4C65B /* MasterViewController.h */,
+				323D31731C4D896400B4C65B /* MasterViewController.m */,
+				323D31751C4D896400B4C65B /* DetailViewController.h */,
+				323D31761C4D896400B4C65B /* DetailViewController.m */,
+				323D31781C4D896400B4C65B /* Main.storyboard */,
+				323D317B1C4D896400B4C65B /* Images.xcassets */,
+				323D317D1C4D896400B4C65B /* LaunchScreen.xib */,
+				323D316B1C4D896400B4C65B /* Supporting Files */,
+			);
+			path = "Acro Finder";
+			sourceTree = "<group>";
+		};
+		323D316B1C4D896400B4C65B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				323D316C1C4D896400B4C65B /* Info.plist */,
+				323D316D1C4D896400B4C65B /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		323D31871C4D896400B4C65B /* Acro FinderTests */ = {
+			isa = PBXGroup;
+			children = (
+				323D318A1C4D896400B4C65B /* Acro_FinderTests.m */,
+				323D31881C4D896400B4C65B /* Supporting Files */,
+			);
+			path = "Acro FinderTests";
+			sourceTree = "<group>";
+		};
+		323D31881C4D896400B4C65B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				323D31891C4D896400B4C65B /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		323D31671C4D896400B4C65B /* Acro Finder */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 323D318E1C4D896400B4C65B /* Build configuration list for PBXNativeTarget "Acro Finder" */;
+			buildPhases = (
+				323D31641C4D896400B4C65B /* Sources */,
+				323D31651C4D896400B4C65B /* Frameworks */,
+				323D31661C4D896400B4C65B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Acro Finder";
+			productName = "Acro Finder";
+			productReference = 323D31681C4D896400B4C65B /* Acro Finder.app */;
+			productType = "com.apple.product-type.application";
+		};
+		323D31831C4D896400B4C65B /* Acro FinderTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 323D31911C4D896400B4C65B /* Build configuration list for PBXNativeTarget "Acro FinderTests" */;
+			buildPhases = (
+				323D31801C4D896400B4C65B /* Sources */,
+				323D31811C4D896400B4C65B /* Frameworks */,
+				323D31821C4D896400B4C65B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				323D31861C4D896400B4C65B /* PBXTargetDependency */,
+			);
+			name = "Acro FinderTests";
+			productName = "Acro FinderTests";
+			productReference = 323D31841C4D896400B4C65B /* Acro FinderTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		323D31601C4D896400B4C65B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0600;
+				ORGANIZATIONNAME = "Sai Gogineni";
+				TargetAttributes = {
+					323D31671C4D896400B4C65B = {
+						CreatedOnToolsVersion = 6.0.1;
+					};
+					323D31831C4D896400B4C65B = {
+						CreatedOnToolsVersion = 6.0.1;
+						TestTargetID = 323D31671C4D896400B4C65B;
+					};
+				};
+			};
+			buildConfigurationList = 323D31631C4D896400B4C65B /* Build configuration list for PBXProject "Acro Finder" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 323D315F1C4D896400B4C65B;
+			productRefGroup = 323D31691C4D896400B4C65B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				323D31671C4D896400B4C65B /* Acro Finder */,
+				323D31831C4D896400B4C65B /* Acro FinderTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		323D31661C4D896400B4C65B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				323D317A1C4D896400B4C65B /* Main.storyboard in Resources */,
+				323D317F1C4D896400B4C65B /* LaunchScreen.xib in Resources */,
+				323D317C1C4D896400B4C65B /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		323D31821C4D896400B4C65B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		323D31641C4D896400B4C65B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				323D31711C4D896400B4C65B /* AppDelegate.m in Sources */,
+				323D31741C4D896400B4C65B /* MasterViewController.m in Sources */,
+				323D316E1C4D896400B4C65B /* main.m in Sources */,
+				323D31771C4D896400B4C65B /* DetailViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		323D31801C4D896400B4C65B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				323D318B1C4D896400B4C65B /* Acro_FinderTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		323D31861C4D896400B4C65B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 323D31671C4D896400B4C65B /* Acro Finder */;
+			targetProxy = 323D31851C4D896400B4C65B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		323D31781C4D896400B4C65B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				323D31791C4D896400B4C65B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		323D317D1C4D896400B4C65B /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				323D317E1C4D896400B4C65B /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		323D318C1C4D896400B4C65B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		323D318D1C4D896400B4C65B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		323D318F1C4D896400B4C65B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Acro Finder/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		323D31901C4D896400B4C65B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Acro Finder/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		323D31921C4D896400B4C65B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Acro FinderTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Acro Finder.app/Acro Finder";
+			};
+			name = Debug;
+		};
+		323D31931C4D896400B4C65B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Acro FinderTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Acro Finder.app/Acro Finder";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		323D31631C4D896400B4C65B /* Build configuration list for PBXProject "Acro Finder" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				323D318C1C4D896400B4C65B /* Debug */,
+				323D318D1C4D896400B4C65B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		323D318E1C4D896400B4C65B /* Build configuration list for PBXNativeTarget "Acro Finder" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				323D318F1C4D896400B4C65B /* Debug */,
+				323D31901C4D896400B4C65B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		323D31911C4D896400B4C65B /* Build configuration list for PBXNativeTarget "Acro FinderTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				323D31921C4D896400B4C65B /* Debug */,
+				323D31931C4D896400B4C65B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 323D31601C4D896400B4C65B /* Project object */;
+}
