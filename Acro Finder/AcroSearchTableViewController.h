@@ -1,5 +1,5 @@
 //
-//  MasterViewController.h
+//  AcroSearchTableViewController.h
 //  Acro Finder
 //
 //  Created by Sai Gogineni on 1/18/16.
@@ -8,8 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface MasterViewController : UITableViewController
-
+@interface AcroSearchTableViewController : UITableViewController
 
 @end
-
