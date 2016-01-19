@@ -115,14 +115,7 @@
 #pragma mark - Text Field Delegate
 
 - (BOOL)textFieldShouldReturn:(UITextField *)textField
-{
-    if ([textField.text isEqualToString:@""]) {
-        UIAlertView *errorAlert = [[UIAlertView alloc] initWithTitle:@"Please give some input" message:nil delegate:nil cancelButtonTitle:@"OK" otherButtonTitles: nil];
-        [errorAlert show];
-        
-        return YES;
-    }
-    
+{    
     [textField resignFirstResponder];
     [self searchClicked:_searchButton];
     return YES;
